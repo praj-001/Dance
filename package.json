@@ -1,0 +1,27 @@
+{
+  "name": "conversational-speech-dialogue-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://code.swecha.org/AssistiveTech/swecha-voice/conversational-speech-dialogue-system.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.8",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
